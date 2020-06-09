@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2517px" height="2413px" viewBox="0 0 2517 2413" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 53</title>
+    <defs>
+        <radialGradient cx="50%" cy="47.8009516%" fx="50%" fy="47.8009516%" r="30.5469819%" gradientTransform="translate(0.500000,0.478010),scale(0.958681,1.000000),rotate(90.000000),translate(-0.500000,-0.478010)" id="radialGradient-1">
+            <stop stop-color="#34A1AF" stop-opacity="0.887647509" offset="0%"></stop>
+            <stop stop-color="#34A1AF" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-81.1%" y="-151.5%" width="262.2%" height="402.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="50" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.47027972 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-53">
+            <g id="Group-45-Copy-2" fill="url(#radialGradient-1)">
+                <rect id="Rectangle" x="0" y="0" width="2517" height="2413"></rect>
+            </g>
+            <g id="Group-51" filter="url(#filter-2)" transform="translate(1135.000000, 948.000000)">
+                <path d="M129.477605,135.058537 C177.149943,135.058537 220.309145,115.692601 258.955211,76.9607303 C220.309145,25.6535768 177.149943,0 129.477605,0 C81.8052674,0 38.6460656,25.6535768 0,76.9607303 C38.6460656,115.692601 81.8052674,135.058537 129.477605,135.058537 Z" id="Oval-3" stroke="#FFFFFF" stroke-width="20"></path>
+                <ellipse id="Oval" fill="#FFFFFF" cx="129.477605" cy="67.8083149" rx="36.2760532" ry="36.5550998"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
