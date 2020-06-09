@@ -7243,10 +7243,20 @@ h6{
   text-align:center;
   
 }
-
-.right-text-top{
+.left-text{
   font-size: 1.2rem;
-  color: #111C20;
+  color: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translateX(-50%);
+  text-align:center;
+  
+}
+
+.left-text-top{
+  font-size: 1.2rem;
+  color: #ffffff;
   position: absolute;
   left: 50%;
   top: 35%;
