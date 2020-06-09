@@ -7233,7 +7233,7 @@ h6{
  font-size: 2rem;
   color: #111C20; 
 }
-.right-text{
+.right-text span{
   font-size: 1.2rem;
   color: #111C20;
   position: absolute;
@@ -7243,7 +7243,17 @@ h6{
   text-align:center;
   
 }
-.left-text{
+.right-text-top span {
+  font-size: 1.2rem;
+  color: #111C20;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translateX(-50%);
+  text-align:center;
+}
+
+.left-text span{
   font-size: 1.2rem;
   color: #ffffff;
   position: absolute;
@@ -7253,7 +7263,8 @@ h6{
   text-align:center;
 }
 
-.left-text-top {
+
+.left-text-top span {
   font-size: 1.2rem;
   color: #ffffff;
   position: absolute;
