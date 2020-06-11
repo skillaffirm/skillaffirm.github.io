@@ -923,14 +923,14 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 16, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_header.scss */
   .header-area .main-header-area {
-    padding: 25px 50px;
+    padding: 15px 50px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
   /* line 16, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_header.scss */
   .header-area .main-header-area {
-    padding: 25px 85px;
+    padding: 15px 85px;
   }
 }
 
@@ -7358,6 +7358,7 @@ display: block;
   border-color:#06CAC8 !important;
 }
 
+
 .container {
   
   width: 100%;
@@ -7437,7 +7438,37 @@ display: block;
   color: white;
 }
 
+@media (max-width:1469px){
+.hero-text-2 button {
+  width:229px;
+}
+.hero-text-1 button {
+  width:229px;
+}
+}
 
+@media (max-width: 991px) and (min-width: 768px)
+ {
+  /* line 16, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_header.scss */
+  h2 {
+ font-size: 30px !important;
+  
+}
+}
+
+@media (max-width: 991px) and (min-width: 768px)
+ {
+  /* line 16, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_header.scss */
+  h3 {
+ font-size: 30px !important;
+  
+}
+}
+
+
+.about-top{
+  position: relative;
+}
 
 .hero-image {
   background-image: url("");

@@ -2530,7 +2530,18 @@ select.form-control-lg:not([size]):not([multiple]) {
 .form-inline .form-check {
     width: 100%
 }
-
+@media (max-width:1469px){
+.form-inline .form-control {
+        display: inline-block;
+        width: 100%;
+        vertical-align: middle
+    }
+    .form-inline .form-control-1 {
+        display: inline-block;
+        width: auto;
+        vertical-align: middle
+    
+    }}
 @media (min-width:576px) {
     .form-inline label {
         display: -webkit-box;
@@ -2561,6 +2572,11 @@ select.form-control-lg:not([size]):not([multiple]) {
         margin-bottom: 0
     }
     .form-inline .form-control {
+        display: inline-block;
+        width: auto;
+        vertical-align: middle
+    }
+    .form-inline .form-control-1 {
         display: inline-block;
         width: auto;
         vertical-align: middle
