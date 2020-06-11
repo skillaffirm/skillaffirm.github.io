@@ -7335,6 +7335,28 @@ display: block;
   border:1px solid transparent;
 
 }
+.form-control-1 {
+display: block;
+   
+   
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    
+    
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+  border-radius:0px;
+  padding:8px 30px;
+  border:1px solid transparent;
+
+}
+
+.form-control:focus {
+  box-shadow:0 0 0 0.1rem rgba(6, 202, 200, .25)!important;
+  border-color:#06CAC8 !important;
+}
 
 .container {
   

@@ -2065,6 +2065,8 @@ pre code {
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
+
+
 .form-control::-ms-expand {
     background-color: transparent;
     border: 0
@@ -2073,12 +2075,25 @@ pre code {
 .form-control:focus {
     color: #495057;
     background-color: #fff;
-    border-color: #80bdff;
+    
     outline: 0;
-    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
+   box-shadow:0 0 0 0.1rem rgba(6, 202, 200, .25)!important;
+  border-color:#06CAC8 !important;
+}
+.form-control-1:focus {
+    color: #495057;
+    background-color: #fff;
+    
+    outline: 0;
+   box-shadow:0 0 0 0.1rem rgba(255, 81, 81, .25)!important;
+  border-color:#FF5151 !important;
 }
 
 .form-control::-webkit-input-placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+.form-control-1::-webkit-input-placeholder {
     color: #6c757d;
     opacity: 1
 }
