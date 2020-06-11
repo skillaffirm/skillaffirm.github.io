@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard Copy 7</title>
+    <g id="Artboard-Copy-7" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M51,40 L62,48 L51,56 L50.9990327,51.1660792 C45.3240819,52.1186339 41,57.0543452 41,63 C41,63.2222124 41.0060399,63.4430141 41.0179645,63.6622499 C39.743401,61.7569073 39,59.465269 39,57 C39,50.372583 44.372583,45 51,45 L51,40 Z" id="Combined-Shape" fill="#06CAC8"></path>
+        <polygon id="Path-78" stroke="#06CAC8" points="21 31 65.5 20.5 83 59 63.5 85.5 19.5 68.5"></polygon>
+        <circle id="Oval" fill="#06CAC8" cx="21" cy="31" r="7"></circle>
+        <circle id="Oval-Copy-2" fill="#06CAC8" cx="65.5" cy="20.5" r="10.5"></circle>
+        <circle id="Oval-Copy-3" fill="#06CAC8" cx="83" cy="59" r="7"></circle>
+        <circle id="Oval-Copy-4" fill="#06CAC8" cx="63.5" cy="85.5" r="8.5"></circle>
+        <circle id="Oval-Copy-5" fill="#06CAC8" cx="19.5" cy="68.5" r="8.5"></circle>
+    </g>
+</svg>

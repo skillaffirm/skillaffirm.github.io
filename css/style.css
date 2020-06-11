@@ -7368,14 +7368,14 @@ display: block;
   display: inline-block;
   padding: 8px 25px;
   color: #111C20;
-  background-color: #E46D64;
+  background-color: #FF5151;
   text-align: center;
   cursor: pointer;
   border-radius: 0px;
 }
 
-.hero-text-2 button:hover {
-  background-color: #555;
+.hero-text-1 button:hover {
+  background-color: #111C20;
   color: white;
 }
 
@@ -7404,14 +7404,14 @@ display: block;
   display: inline-block;
   padding: 8px 25px;
   color: #111C20;
-  background-color: #06CCC8;
+  background-color: #06CAC8;
   text-align: center;
   cursor: pointer;
   border-radius: 0px;
 }
 
 .hero-text-2 button:hover {
-  background-color: #555;
+  background-color: #111C20;
   color: white;
 }
 
@@ -7433,6 +7433,7 @@ display: block;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  padding-bottom: 20px;
 }
 
 .hero-text button {
@@ -7440,14 +7441,14 @@ display: block;
   outline: 0;
   display: inline-block;
   padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
+  color: #111C20;
+  background-color: #C4CCD4;
   text-align: center;
   cursor: pointer;
 }
 
 .hero-text button:hover {
-  background-color: #555;
+  background-color: #111C20;
   color: white;
 }
 
@@ -7521,16 +7522,34 @@ display: block;
   position: absolute;
  z-index: 3;
  width:1.5%;
- 
+
  left:50%;
  transform: translate(-50%, -50%);
 }
 
-.features-left {
+.features-left-container {
+  width: 400px;
   padding-right: 30px;
-  padding-left: 30px;
+  float:right;
 
 }
+.features-right-container {
+  width: 400px;
+  padding-left: 30px;
+  float:left;
+
+}
+.f-img {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.f-img img{
+  width: 100px;
+  
+}
+
+
 @media(max-width: 800px) {
   h1 {
     font-size: 2rem;

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard Copy 5</title>
+    <g id="Artboard-Copy-5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-26-Copy" transform="translate(6.000000, 13.500000)">
+            <rect id="Rectangle" fill="#06CAC8" x="34" y="0.5" width="12" height="11"></rect>
+            <path d="M48.44,31.5 L48.439,37.617 L59,52.6764706 L41.7062138,52.6769353 C40.0397034,54.4232786 37.7574194,55.5 35.24,55.5 C30.1368889,55.5 26,51.0755199 26,45.6176471 C26,41.1411719 28.7829115,37.3598666 32.5993353,36.1447462 L32.6,31.5 L48.44,31.5 Z" id="Combined-Shape" fill="#06CAC8"></path>
+            <polygon id="Triangle" fill="#06CAC8" points="80 52.5 88 63.5 72 63.5"></polygon>
+            <circle id="Oval" fill="#06CAC8" cx="6.5" cy="58" r="6.5"></circle>
+            <line x1="8" y1="57.5" x2="34" y2="47.5" id="Path-15" stroke="#06CAC8" stroke-width="0.2"></line>
+            <line x1="40.5" y1="9.5" x2="40.5" y2="36.5" id="Path-16" stroke="#06CAC8" stroke-width="0.2"></line>
+            <line x1="78" y1="59.5" x2="48" y2="48.5" id="Path-17" stroke="#06CAC8" stroke-width="0.2"></line>
+        </g>
+    </g>
+</svg>
