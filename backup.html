@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="split left">
+    <h2>I Want To Test a Candidate</h2>
+    <div class="left-text-top"><span>Tired of sending hundreds of resumes? </span></div>
+    <form class="form-inline" action="/action_page.php"> 
+    
+    
+    <input type="email" class="form-control" id="email" placeholder="Enter Username" name="email"> 
+    
+    <button type="button" class="btn btn-secondary">Get Started</button> 
+</form> 
+<div class="left-text"><span>Send a testing link and request a screening! Great way to show off you skills and stand out.</span></div>
+  </div>
+  <div class="split right">
+    <h3>I Want To Take a Test</h3>
+    <div class="right-text-top"><span>Tired of sending hundreds of resumes? </span></div>
+    <form class="form-inline" action="/action_page.php"> 
+    
+    
+    <input type="email" class="form-control" id="email" placeholder="Enter Username" name="email"> 
+    
+    <button type="button" class="btn btn-secondary">Get Started</button> 
+</form> 
+<div class="right-text"><span>Send a testing link and request a screening! Great way to show off you skills and stand out.</span></div>
+  </div>
+
+  <script type="text/javascript" id="rendered-js">
+      
+        const left = document.querySelector(".left");
+        const right = document.querySelector(".right");
+        const container = document.querySelector(".container");
+
+        left.addEventListener("mouseenter", () => {
+         container.classList.add("hover-left");
+        });
+
+        left.addEventListener("mouseleave", () => {
+         container.classList.remove("hover-left");
+        });
+
+        right.addEventListener("mouseenter", () => {
+         container.classList.add("hover-right");
+        });
+
+        right.addEventListener("mouseleave", () => {
+         container.classList.remove("hover-right");
+        });
+  </script>
+
+</div>

@@ -9,6 +9,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-style: normal;
+
 }
 
 /* line 12, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
@@ -898,11 +899,13 @@ h3 {
 
 /* line 16, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_header.scss */
 .header-area .main-header-area {
-  padding: 29px 85px;
-  background: #fff;
-  background: transparent;
+  padding: 15px 85px;
+  background: #111C20;
+  
 }
 
+ 
+}
 @media (max-width: 767px) {
   /* line 16, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_header.scss */
   .header-area .main-header-area {
@@ -1037,7 +1040,7 @@ h3 {
 
 /* line 113, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
-  color: #111C20;
+  color: #ffffff;
   font-size: 15px;
   text-transform: capitalize;
   font-weight: 400;
@@ -7184,8 +7187,8 @@ h6 {
   --left-button-hover-color: rgba(161, 11, 11, 0.3);
   --right-bg-color: rgba(255, 255, 255, 0.5);
   --right-button-hover-color: rgba(92, 92, 92, 0.3);
-  --hover-width: 70%;
-  --other-width: 30%;
+  --hover-width: 67%;
+  --other-width: 33%;
   --speed: 1000ms;
 }
 
@@ -7195,7 +7198,7 @@ html, body {
   
   width: 100%;
   height: 100%;
-  
+  overflow-x: hidden;
 }
 
 h1 {
@@ -7213,7 +7216,7 @@ h2 {
   color: #fff;
   position: absolute;
   left: 50%;
-  top: 25%;
+  top: -70%;
   transform: translateX(-50%);
   white-space: nowrap;
 }
@@ -7222,7 +7225,7 @@ h3 {
   color: #111C20;
   position: absolute;
   left: 50%;
-  top: 25%;
+  top: -70%;
   transform: translateX(-50%);
   white-space: nowrap;
 } 
@@ -7234,44 +7237,48 @@ h6{
   color: #111C20; 
 }
 .right-text span{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #111C20;
   position: absolute;
   left: 50%;
-  top: 60%;
+  top: 55%;
   transform: translateX(-50%);
   text-align:center;
+  width: 300px;
   
 }
 .right-text-top span {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #111C20;
   position: absolute;
   left: 50%;
   top: 35%;
   transform: translateX(-50%);
   text-align:center;
+  width: 300px;
 }
 
 .left-text span{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #ffffff;
   position: absolute;
   left: 50%;
-  top: 60%;
+  top: 55%;
   transform: translateX(-50%);
   text-align:center;
+  width: 300px;
 }
 
 
 .left-text-top span {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #ffffff;
   position: absolute;
   left: 50%;
   top: 35%;
   transform: translateX(-50%);
   text-align:center;
+  width: 300px;
 }
 
 .button {
@@ -7306,9 +7313,8 @@ h6{
 
 form {
 display: block;
-    position: absolute;
-    left: 50%;
-    top: 40%;
+    position: relative;
+    
     height: 2.5rem;
     padding-top: 1.3rem;
     
@@ -7319,7 +7325,15 @@ display: block;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
-    transform: translateX(-50%);
+    transform: translateX(12%);
+}
+
+.form-control {
+
+  border-radius:0px;
+  padding:8px 30px;
+  border:1px solid transparent;
+
 }
 
 .container {
@@ -7328,8 +7342,83 @@ display: block;
   height: 100%;
   background: var(--container-bg-color);
 }
+
+.hero-image-1 {
+  background: url('https://i.imgur.com/IlYbLBL.png') center center no-repeat;
+  height: 800px;
+  width:auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text-1 {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text-1 button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px 25px;
+  color: #111C20;
+  background-color: #E46D64;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+.hero-text-2 button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.hero-image-2 {
+  background: url('https://i.imgur.com/Yu8UzQj.png') center center no-repeat;
+  height: 800px;
+  width:auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text-2 {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text-2 button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px 25px;
+  color: #111C20;
+  background-color: #06CCC8;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+.hero-text-2 button:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+
 .hero-image {
-  background-image: url("img/portfolio/sa-web.svg");
+  background-image: url("");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -7428,6 +7517,20 @@ display: block;
   z-index: 2;
 }
 
+.scroll-anim {
+  position: absolute;
+ z-index: 3;
+ width:1.5%;
+ 
+ left:50%;
+ transform: translate(-50%, -50%);
+}
+
+.features-left {
+  padding-right: 30px;
+  padding-left: 30px;
+
+}
 @media(max-width: 800px) {
   h1 {
     font-size: 2rem;

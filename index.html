@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+   
     
 </head>
 
@@ -36,7 +37,9 @@
         <![endif]-->
 
     <!-- header-start -->
-
+<object class="scroll-anim" data="img/scroll-anim-6.svg" type="image/svg+xml">
+  <img src="img/scroll-anim-6.svg"/>
+</object>
     <header>
         <div class="header-area ">
             <div id="sticky-header" class="main-header-area">
@@ -72,55 +75,39 @@
             </div>
         </div>
     </header>
-    <div class="container">
-  <div class="split left">
-    <h2>I Want To Test a Candidate</h2>
-    <div class="left-text-top"><span>Tired of sending hundreds of resumes? </span></div>
+
+    <div class="row">
+  <div class="col-md-6">
+        <div class="hero-image-1">
+  <div class="hero-text-1">
+    <h2 style="font-size:40px">I Want To Test a Candidate</h2>
+    <p >What to hire the best? Create custom skill affirmation tests using our innovative service.</p>
     <form class="form-inline" action="/action_page.php"> 
     
     
-    <input type="email" class="form-control" id="email" placeholder="Enter Username" name="email"> 
+    <input type="email" class="form-control" id="email" placeholder="Your Email" name="email"> 
     
     <button type="button" class="btn btn-secondary">Get Started</button> 
 </form> 
-<div class="left-text"><span>Send a testing link and request a screening! Great way to show off you skills and stand out.</span></div>
   </div>
-  <div class="split right">
-    <h3>I Want To Take a Test</h3>
-    <div class="right-text-top"><span>Tired of sending hundreds of resumes? </span></div>
+</div>
+  </div>
+  <div class="col-md-6">
+     <div class="hero-image-2">
+  <div class="hero-text-2">
+    <h3 style="font-size:40px">I Want To Take a Test</h3>
+    <p>Tired of sending hundreds of resumes? Send a screening request! A new great way to show off you skills and stand out.</p>
     <form class="form-inline" action="/action_page.php"> 
     
     
-    <input type="email" class="form-control" id="email" placeholder="Enter Username" name="email"> 
+    <input type="email" class="form-control" id="email" placeholder="Your Email" name="email"> 
     
     <button type="button" class="btn btn-secondary">Get Started</button> 
 </form> 
-<div class="right-text"><span>Send a testing link and request a screening! Great way to show off you skills and stand out.</span></div>
   </div>
+</div> 
 
-  <script type="text/javascript" id="rendered-js">
-      
-        const left = document.querySelector(".left");
-        const right = document.querySelector(".right");
-        const container = document.querySelector(".container");
-
-        left.addEventListener("mouseenter", () => {
-         container.classList.add("hover-left");
-        });
-
-        left.addEventListener("mouseleave", () => {
-         container.classList.remove("hover-left");
-        });
-
-        right.addEventListener("mouseenter", () => {
-         container.classList.add("hover-right");
-        });
-
-        right.addEventListener("mouseleave", () => {
-         container.classList.remove("hover-right");
-        });
-  </script>
-
+  </div>
 </div>
 <div class="hero-image">
     <object data="img/portfolio/sa-web-2.svg" type="image/svg+xml">
@@ -136,21 +123,17 @@
   </div>
 </div>
 
-<div class="container-info col-12" >
-
-    
-        <div class="row justify-content-center">
-
-        <div class="col-lg-6 svg-over">
-        <p><strong>About The Application:</strong>
-        <br>
-        <br>
-        Originally the Health Check application was part of a bigger platform, in the process we separated it to be a stand alone app due to production costs. The main purpose of the application then became to draw the target audience to the main “paid” Saas portal.
+<div class="row">
+  <div class="col-sm-6" style="border-right: 2px solid #000000;">
+    <div class="features-left-container">
+    <p>Originally the Health Check application was part of a bigger platform, in the process we separated it to be a stand alone app due to production costs. The main purpose of the application then became to draw the target audience to the main “paid” Saas portal.
         So basically it became a freebie that on a certain level prompts the customer to register on the main Saas while giving moderate value.
-        The App was designed to give Ruby developers and dev team managers the ability to check their code for multiple vulnerabilities and while providing some low level insights the app prompted them to sign up and get solution options.
-        </p>
-        </div>
+        The App was designed to give Ruby developers and dev team managers the ability to check their code for multiple vulnerabilities and while providing some low level insights the app prompted them to sign up and get solution options.</p>
     </div>
- </div>
+    </div>
+  <div class="col-sm-6"><p>Originally the Health Check application was part of a bigger platform, in the process we separated it to be a stand alone app due to production costs. The main purpose of the application then became to draw the target audience to the main “paid” Saas portal.
+        So basically it became a freebie that on a certain level prompts the customer to register on the main Saas while giving moderate value.
+        The App was designed to give Ruby developers and dev team managers the ability to check their code for multiple vulnerabilities and while providing some low level insights the app prompted them to sign up and get solution options.</p></div>
+</div>
 
 </body>
